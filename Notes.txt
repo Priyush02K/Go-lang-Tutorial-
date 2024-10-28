@@ -1,0 +1,46 @@
+Go lang
+        go mod init main.go
+        go run
+
+variable 
+
+        Declaring (Creating) Variables
+        In Go, there are two ways to declare a variable:
+
+        1. With the var keyword:
+        Use the var keyword, followed by variable name and type:
+
+        Syntax
+        var variablename type = value
+        Note: You always have to specify either type or value (or both).
+
+        2. With the := sign:
+        Use the := sign, followed by the variable value:
+
+        Syntax
+        variablename := value
+
+
+
+
+
+
+
+
+
+
+
+
+
+…or create a new repository on the command line
+echo "# Go-lang-Tutorial-" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Priyush02K/Go-lang-Tutorial-.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/Priyush02K/Go-lang-Tutorial-.git
+git branch -M main
+git push -u origin main
