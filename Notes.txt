@@ -2,7 +2,7 @@ Go lang
         go mod init main.go
         go run
 
-variable 
+variable :
 
         Declaring (Creating) Variables
         In Go, there are two ways to declare a variable:
@@ -20,6 +20,17 @@ variable
         Syntax
         variablename := value
 
+ formatting verbs:
+        %v is used to print the value of the arguments
+        %T is used to print the type of the arguments
+
+DataType:
+
+ Go has three basic data types:
+
+        bool: represents a boolean value and is either true or false
+        Numeric: represents integer types, floating point values, and complex types
+        string: represents a string value
 
 
 
